@@ -1,0 +1,344 @@
+body {
+	height: 100%;
+	background: url("../img/Frame-6.jpg") center top no-repeat fixed;
+	background-size: cover;
+	a(0,
+	0,
+	0,
+	0.7);
+	*/ background-blend-mode: multiply;
+	font-family: 'Inter', sans-serif;
+
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+html,
+main,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	/*    color: inherit;*/
+	cursor: default;
+	position: relative;
+	display: contents;
+}
+
+/*去除毛邊*/
+
+
+.main_launxp {
+	display: flex;
+}
+
+
+
+img {
+	width: 140.483px;
+	height: 110.075px;
+}
+
+
+.company_launxp {
+	color: #000;
+	font-family: Inter;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	width: 449.936px;
+	height: 97.472px;
+	flex-shrink: 0;
+}
+
+.intro_launxp {
+	color: #000;
+	font-family: Microsoft JhengHei;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	width: 473.267px;
+}
+
+.left_launxp {
+	display: flex;
+	flex-direction: column;
+	margin-top: 15%;
+	margin-left: 15%;
+	margin-right: -15%;
+
+}
+
+.right_launxp {
+	margin-top: 1%;
+	margin-left: 19%;
+	/*	display: flex;*/
+}
+
+
+
+span.intro_company {
+	color: black;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	width: 160.645px;
+	height: 53.702px;
+	flex-shrink: 0;
+	/* 添加顏色過度效果 */
+	margin-left: -260px;
+	margin-top: 5px;
+	/*	滑鼠點到父層以後，仍然有hover變橘色效果*/
+	pointer-events: none;
+}
+
+
+span.clip_left,
+span.clip_top,
+span.clip_right,
+span.clip_down {
+	position: relative;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+
+
+span.VLP {
+	margin-top: 70px;
+	margin-left: -275px;
+	/*	滑鼠點到父層以後，仍然有hover變橘色效果*/
+	pointer-events: none;
+}
+
+span.LXP_5268 {
+	margin-top: 70px;
+	margin-left: -270px;
+	/*	滑鼠點到父層以後，仍然有hover變橘色效果*/
+	pointer-events: none;
+}
+
+span.LXP_1788 {
+	margin-top: 70px;
+	margin-left: -280px;
+	/*	滑鼠點到父層以後，仍然有hover變橘色效果*/
+	pointer-events: none;
+}
+
+svg.item_VLP {
+	margin-top: -100px;
+	margin-left: -145px;
+	pointer-events: none;
+/*	transition: .2s;*/
+}
+
+svg.item_5268 {
+	margin-top: -100px;
+	margin-left: -140px;
+	pointer-events: none;
+/*	transition: .2s;*/
+}
+
+svg.item_1788 {
+	margin-top: -100px;
+	margin-left: -130px;
+	pointer-events: none;
+/*	transition: .2s;*/
+}
+
+span.LXP_5268,
+span.LXP_1788,
+span.VLP {
+	color: #000;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	width: 190.551px;
+	height: 40.202px;
+	flex-shrink: 0;
+	
+}
+
+
+span.clip_row {
+	display: flex;
+	margin-top: 280px;
+	position: relative;
+}
+
+
+span.clip_cloumn {
+	position: absolute;
+	margin-top: -450px;
+	margin-left: 298px;
+}
+
+span.clip_left {
+	margin-left: 40px;
+}
+
+span.clip_right {
+	margin-left: 240px;
+}
+
+span.clip_down {
+	margin-top: -30px;
+}
+
+span.clip_top {
+	margin-top: -35px;
+}
+
+
+
+
+
+path.path_into:hover {
+	fill: #EB6001;
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+path.path_VLP:hover {
+	fill: #EB6001;
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+path.path_5268:hover {
+	fill: #EB6001;
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+path.path_1788:hover {
+	fill: #EB6001;
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+
+
+/*RWD*/
+
+@media (max-width:1740px) and (min-width:1330px) {
+	.right_launxp {
+		display: flex;
+	}
+	span.clip_row {
+		display: block;
+		margin-top: 60px;
+	}
+	span.clip_cloumn {
+		position: relative;
+		margin-top: 280px;
+		margin-left: 0px;
+	}
+	span.clip_left {
+		margin-left: 0px;
+		margin-top: 30px;
+		margin-bottom: -30px;
+	}
+
+	span.clip_right {
+		margin-left: 0px;
+	}
+	.right_launxp {
+		margin-top: 0px;
+
+	}
+
+}
+
+
+@media (max-width:1329px) and (min-width:912px) {
+	.main_launxp {
+		display: block;
+		position: relative;
+	}
+	.left_launxp {
+		margin-top: 150px;
+		margin-left: 0%;
+		margin-right: 0%;
+		align-items: center;
+
+	}
+
+	.right_launxp {
+
+		margin-top: 0%;
+		margin-left: -2%;
+	}
+	span.company_launxp {
+		margin-top: 30px;
+	}
+	span.intro_launxp {
+		width: 435.26700000000005px;
+	}
+}
+
+@media (max-width:911px) {
+	.main_launxp {
+		display: block;
+		position: relative;
+	}
+
+
+	.left_launxp {
+		margin-top: 50px;
+		margin-left: 0%;
+		margin-right: 0%;
+		align-items: center;
+		/*		display: block;*/
+	}
+
+	span.company_launxp {
+		font-size: 24px;
+		width: 300px;
+		;
+		margin-bottom: -40px;
+		margin-top: 30px;
+	}
+
+	span.intro_launxp {
+		font-size: 16px;
+		width: 300px;
+	}
+
+	.right_launxp {
+		/*		display: flex;*/
+	}
+	span.clip_row,
+	span.clip_cloumn {
+		display: block;
+		margin-top: 0px;
+	}
+	span.clip_right,
+	span.clip_left {
+		margin-left: -70px;
+		margin-bottom: 580px;
+		align-items: center;
+	}
+
+
+
+	span.clip_cloumn {
+		margin-top: -1480px;
+		margin-left: -70px;
+		/*		align-items: center;*/
+	}
+}

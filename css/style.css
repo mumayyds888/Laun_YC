@@ -1,0 +1,707 @@
+body {
+	height: 100%;
+	background: url("../img/Frame-6.jpg") center top no-repeat fixed;
+	background-size: cover;
+	a(0,
+	0,
+	0,
+	0.7);
+	*/ background-blend-mode: multiply;
+	font-family: 'Inter', sans-serif;
+
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+html,
+main,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	position: relative;
+	display: contents;
+}
+
+
+
+.main_launxp {
+	display: flex;
+}
+
+
+
+img {
+	width: 140.483px;
+	height: 110.075px;
+}
+
+
+.company_launxp {
+	color: #000;
+	font-family: Inter;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	width: 449.936px;
+	height: 97.472px;
+	flex-shrink: 0;
+}
+
+.intro_launxp {
+	color: #000;
+	font-family: Microsoft JhengHei;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	/*	width: 473.267px;*/
+	width: 509.26700000000005px;
+}
+
+.left_launxp {
+	display: flex;
+	flex-direction: column;
+	margin-top: 18%;
+	margin-left: 9%;
+	margin-right: -15%;
+
+}
+
+.right_launxp {
+	margin-left: 200px;
+}
+
+
+
+span.intro_company {
+	color: black;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	width: 160.645px;
+	height: 53.702px;
+	flex-shrink: 0;
+	/* 添加顏色過度效果 */
+	margin-left: -260px;
+	margin-top: 5px;
+	/*	滑鼠點到父層以後，仍然有hover變橘色效果*/
+	pointer-events: none;
+}
+
+/*----------------------------一組六角星星*/
+
+.clip_left {
+	width: 313.7062px;
+	height: 271.6784px;
+	background: radial-gradient(50% 50% at 50% 50%, rgba(255, 215, 188, 0.65) 0%, #FFF 100%);
+	clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+	/*	position: relative;*/
+	margin: 20px;
+	cursor: pointer;
+	transition: background 0.3s;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+	/* display: inline-block; */
+	/* 或者使用 display: inline; */
+	padding: 0;
+	/* 可以移除内边距 */
+	margin: 0;
+	/* 可以移除外边距 */
+}
+
+
+
+.clip_left p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-weight: bold;
+}
+
+.clip_left:hover {
+	background: #EB6001;
+
+}
+
+p.clip_left_intro {
+	color: #000;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	width: 190.551px;
+	height: 40.202px;
+	flex-shrink: 0;
+}
+
+/*----------------------------一組六角星星*/
+
+.clip_top {
+	width: 313.7062px;
+	height: 271.6784px;
+
+	background: radial-gradient(50% 50% at 50% 50%, rgba(255, 215, 188, 0.65) 0%, #FFF 100%);
+	clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+	/*	position: relative;*/
+	margin: 20px;
+	cursor: pointer;
+	transition: background 0.3s;
+	/* display: inline-block; */
+	/* 或者使用 display: inline; */
+	padding: 0;
+	/* 可以移除内边距 */
+	margin: 0;
+	/* 可以移除外边距 */
+}
+
+.clip_top p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-weight: bold;
+}
+
+.clip_top:hover {
+	/*	background: radial-gradient(circle, #FFC300, #FF5733);*/
+	background: #EB6001;
+
+}
+
+p.clip_5268 {
+	color: #000;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	width: 190.551px;
+	height: 40.202px;
+	flex-shrink: 0;
+	margin-top: 60px;
+}
+
+svg.item_5268 {
+	margin-left: 120px;
+	margin-top: 60px;
+
+}
+
+
+/*----------------------------一組六角星星*/
+
+.clip_right {
+	width: 313.7062px;
+	height: 271.6784px;
+
+	background: radial-gradient(50% 50% at 50% 50%, rgba(255, 215, 188, 0.65) 0%, #FFF 100%);
+	clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+	/*	position: relative;*/
+	margin: 20px;
+	cursor: pointer;
+	transition: background 0.3s;
+	display: inline-block;
+	/* 或者使用 display: inline; */
+	padding: 0;
+	/* 可以移除内边距 */
+	margin: 0;
+	/* 可以移除外边距 */
+}
+
+.clip_right p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-weight: bold;
+}
+
+.clip_right:hover {
+	/*	background: radial-gradient(circle, #FFC300, #FF5733);*/
+	background: #EB6001;
+
+}
+
+p.clip_VLP {
+	color: #000;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	width: 190.551px;
+	height: 40.202px;
+	flex-shrink: 0;
+	margin-top: 60px;
+}
+
+svg.item_VLP {
+	margin-left: 110px;
+	margin-top: 60px;
+
+}
+
+/*----------------------------一組六角星星*/
+
+.clip_down {
+	width: 313.7062px;
+	height: 271.6784px;
+
+	background: radial-gradient(50% 50% at 50% 50%, rgba(255, 215, 188, 0.65) 0%, #FFF 100%);
+	clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+	/*	position: relative;*/
+	margin: 20px;
+	cursor: pointer;
+	transition: background 0.3s;
+	display: inline-block;
+	/* 或者使用 display: inline; */
+	padding: 0;
+	/* 可以移除内边距 */
+	margin: 0;
+	/* 可以移除外边距 */
+}
+
+.clip_down p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-weight: bold;
+}
+
+.clip_down:hover {
+	/*	background: radial-gradient(circle, #FFC300, #FF5733);*/
+	background: #EB6001;
+
+}
+
+p.clip_1788 {
+	color: #000;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	width: 190.551px;
+	height: 40.202px;
+	flex-shrink: 0;
+	margin-top: 60px;
+}
+
+svg.item_1788 {
+	margin-left: 120px;
+	margin-top: 60px;
+
+}
+
+
+/* 陰影*/
+
+.element {
+	/*	clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);*/
+	filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.10));
+	position: relative;
+	top: 310px;
+	left: 168px;
+}
+
+.element2 {
+	/*	clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);*/
+	filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.10));
+	position: relative;
+	top: -116px;
+	left: 429px;
+}
+
+.element3 {
+	/*	clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);*/
+	filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.10));
+	position: relative;
+	left: 689px;
+	top: -234px;
+}
+
+.element4 {
+	/*	clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);*/
+	filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.10));
+	position: relative;
+	left: 429px;
+	top: -350px;
+
+}
+
+
+
+
+
+/*RWD*/
+
+@media (max-width:1640px) and (min-width:1320px) {
+
+
+
+	span.intro_launxp {
+		width: 435.26700000000005px;
+	}
+
+	img {
+		width: 25%;
+		height: 15%;
+
+	}
+	
+	.element {
+		top: 150px;
+		left: 60px;
+
+	}
+	.element4 {
+		top: -360px	;
+		left: 60px;
+
+	}
+
+	.element2 {
+		top: 30px;
+		left: 320px;
+
+	}
+
+	.element3 {
+		left: 320px;
+		top: 60px;
+	}
+	
+
+}
+
+@media (max-width:1319px) {
+
+	.main_launxp {
+		display: block;
+	}
+
+	.right_launxp {
+		margin-left: -150px;
+		margin-top: 40px;
+	}
+	.left_launxp {
+		margin-left: 200px;
+		margin-bottom: -50px;
+		margin-top: 60px;
+	}
+	img {
+		width: 90px;
+		height: 10%;
+	}
+	span.company_launxp {
+		font-size: 32px;
+		margin-top: 30px;
+		margin-bottom: -30px;
+
+	}
+	span.intro_launxp {
+		font-size: 18px;
+	}
+
+	/*一組六角星*/
+	div#clip_left_top {
+		width: 230px;
+		height: 200px;
+		position: relative;
+		left: 103px;
+		top: 114px;
+	}
+	svg.item_5268 {
+		width: 100px;
+		margin-left: 75px;
+		padding-bottom: 5px;
+		margin-top: 40px;
+
+	}
+	p.clip_5268 {
+		font-size: 24px;
+		margin-top: 50px;
+	}
+
+	/*一組六角星*/
+	div#clip_left_link {
+		width: 230px;
+		height: 200px;
+		position: relative;
+		left: 170px;
+		top: -223px;
+	}
+
+	p.clip_left_intro {
+		font-size: 24px;
+		/*		margin-top: 50px;*/
+	}
+
+	/*一組六角星*/
+	div#clip_left_right {
+		width: 230px;
+		height: 200px;
+		position: relative;
+		top: 253px;
+		left: -158px;
+	}
+	svg.item_VLP {
+		width: 100px;
+		margin-left: 75px;
+		padding-bottom: 5px;
+		margin-top: 40px;
+	}
+
+	p.clip_VLP {
+		font-size: 24px;
+		margin-top: 50px;
+	}
+
+	/*一組六角星*/
+	div#clip_left_down {
+		width: 230px;
+		height: 200px;
+		position: relative;
+		top: 58px;
+		left: -91px;
+	}
+
+	svg.item_1788 {
+		width: 100px;
+		margin-left: 75px;
+		padding-bottom: 5px;
+		margin-top: 40px;
+	}
+	p.clip_1788 {
+		font-size: 24px;
+		margin-top: 50px;
+	}
+
+
+
+}
+
+
+@media (max-width:740px) and (min-width:540px) {
+	.right_launxp {
+		margin-left: -290px;
+		margin-top: 40px;
+	}
+	.left_launxp {
+		margin-left: 100px;
+		margin-bottom: -100px;
+		margin-top: 50px;
+	}
+	img {
+		width: 80px;
+		height: 10%;
+	}
+	span.company_launxp {
+		font-size: 28px;
+		margin-top: 10px;
+		margin-bottom: -50px;
+
+	}
+	span.intro_launxp {
+		font-size: 14px;
+		width: 350px;
+	}
+
+	/*一組六角星*/
+	div#clip_left_top {
+		width: 200px;
+		height: 170px;
+		left: 130px;
+		top: 109px;
+	}
+	svg.item_5268 {
+		width: 70px;
+		margin-left: 70px;
+		margin-top: 35px;
+
+	}
+	p.clip_5268,
+	p.clip_VLP,
+	p.clip_1788 {
+		font-size: 18px;
+		margin-top: 50px;
+	}
+
+	/*一組六角星*/
+	div#clip_left_link {
+		width: 200px;
+		height: 170px;
+		left: 216px;
+		top: -240px;
+	}
+
+	p.clip_left_intro {
+		font-size: 24px;
+		/*		margin-top: 50px;*/
+	}
+
+	/*一組六角星*/
+	div#clip_left_right {
+		width: 200px;
+		height: 170px;
+		position: relative;
+		top: 246px;
+		left: -133px;
+	}
+	svg.item_VLP {
+		width: 70px;
+		margin-left: 70px;
+		margin-top: 35px;
+	}
+
+
+
+	/*一組六角星*/
+	div#clip_left_down {
+		width: 200px;
+		height: 170px;
+		position: relative;
+		top: 97px;
+		left: -45px;
+	}
+
+	svg.item_1788 {
+		width: 70px;
+		margin-left: 70px;
+		margin-top: 35px;
+	}
+
+
+
+
+}
+
+
+
+
+@media (max-width:539px) {
+	.right_launxp {
+		margin-left: -365px;
+		margin-top: 25px;
+	}
+
+
+	.left_launxp {
+		margin-left: 50px;
+		margin-bottom: -100px;
+		margin-top: 50px;
+	}
+
+	img {
+		width: 50px;
+		height: 10%;
+	}
+
+	span.company_launxp {
+		font-size: 20px;
+		margin-top: 15px;
+		margin-bottom: -60px;
+
+	}
+
+	span.intro_launxp {
+		font-size: 14px;
+		width: 300px;
+	}
+
+	p.clip_5268,
+	p.clip_VLP,
+	p.clip_1788 {
+		font-size: 14px;
+		margin-top: 50px;
+	}
+
+	svg.item_5268 {
+		width: 50px;
+		margin-left: 68px;
+		margin-top: 25px;
+
+	}
+
+
+	svg.item_VLP {
+		width: 50px;
+		margin-left: 60px;
+		margin-top: 20px;
+
+	}
+
+	svg.item_1788 {
+		width: 40px;
+		margin-left: 68px;
+		margin-top: 25px;
+
+	}
+
+
+	/*一組六角星*/
+	div#clip_left_top {
+		width: 170px;
+		height: 140px;
+		left: 113px;
+		top: 171px;
+	}
+
+
+
+	/*一組六角星*/
+	div#clip_left_link {
+		width: 170px;
+		height: 140px;
+		left: 234px;
+		top: -195px;
+	}
+
+	p.clip_left_intro {
+		font-size: 18px;
+		/*		margin-top: 50px;*/
+	}
+
+	/*一組六角星*/
+	div#clip_left_right {
+		width: 170px;
+		height: 140px;
+		position: relative;
+		top: 304px;
+		left: -150px;
+	}
+
+
+
+
+	/*一組六角星*/
+	div#clip_left_down {
+		width: 170px;
+		height: 140px;
+		position: relative;
+		top: 200px;
+		left: -30px;
+	}
+
+
+}
